@@ -616,7 +616,6 @@ body {
   }
   .project__content {
     margin-left: 55px;
-    left: 0;
   }
   .project .container:last-child {
     margin: 0 auto;
@@ -629,8 +628,11 @@ body {
   .rating__text {
     margin-left: 70px;
   }
-  .partners, .contacts, .footer {
+  .partners, .contacts {
     padding-left: 0px;
+  }
+  .footer { 
+    padding-left: 100px;
   }
   .partners .container {
     overflow: hidden;
@@ -749,6 +751,7 @@ body {
     margin-top: 60px;
   }
   .project__content {
+    left: 0;
     margin-left: 0;
   }
   .project .container:last-child {
@@ -780,6 +783,9 @@ body {
   }
   .footer__line {
     margin-top: 35px;
+  }
+  .footer {
+    padding-left: 0;
   }
 }
 @media (max-width:767px) {
